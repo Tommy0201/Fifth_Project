@@ -1,0 +1,111 @@
+html {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica,sans-serif;
+    opacity: 0.9;
+    font-size: 24px; 
+}
+
+header div.content {
+    background-color: black;
+    background-size: cover;
+    position: fixed; 
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    margin-bottom: 10px;
+    margin-top: -24px;
+    display:flex; 
+    z-index: 1;
+}
+header .logo{
+  padding: 30px;   
+  flex: 1 1 20px; 
+}
+
+div.content ul {
+    width: 100%; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+header li{
+    text-decoration: underline;
+    margin: 50px; 
+}
+
+div.banner {
+    position: relative; 
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");     
+    background-size: cover;
+    display: flex; 
+    top: 150px; 
+    flex-grow: 1;
+    margin-bottom: 10px; 
+    color: white; 
+
+}
+div.mission{
+  width: 100%; 
+  margin-block: 30%;
+  display: block; 
+  text-align:center;
+  background-color: black;
+  opacity: 0.8;
+  font-weight: lighter;
+  padding: 10px; 
+  font-size: 1.25rem;
+}
+
+div.feature {
+    position: relative; 
+    margin-top: 200px; 
+    text-align: center;
+}
+div.feature-tea {
+    margin: 20px; 
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center; 
+    flex:1 ; 
+
+}
+div.feature-factor img{
+    width: 700px; 
+    height: 467px; 
+}
+
+div.location {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    text-align: center;
+    padding-top: 10%; 
+    padding-bottom: 15%;
+}
+div.adresses {
+    display: flex;
+    justify-content: space-around;
+    align-content:center; 
+    opacity: 0.8;
+}
+div.adress {
+    background-color: black;
+    width: 300px;  
+    height: 300px;
+    margin: 15px 40px; 
+    padding: 5px;
+}
+span.contact{
+    text-align: center;
+    margin-top: 10px;
+}
+h6{
+    font-weight: lighter;
+}
+span.coppyright{
+    text-align: left;
+}
